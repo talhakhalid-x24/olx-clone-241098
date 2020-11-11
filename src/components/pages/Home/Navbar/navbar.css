@@ -1,0 +1,70 @@
+.main-nav-container{
+    width: 100%;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+}
+
+.main-nav-container .navbar{
+    background-color: white !important;
+    width: 96%;
+    margin: 70px auto 3px;
+    padding: 0;
+}
+
+.main-nav-container .navbar .navbar-brand{
+    color: #002f34 !important;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.navbar-brand > .MuiSvgIcon-root{
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.navbar-brand:focus-within > .MuiSvgIcon-root, .navbar-brand > .MuiSvgIcon-root:focus{
+    transform: rotate(180deg);
+}
+
+.main-nav-container .dropdown-menu{
+    width: 100%;
+    padding: 20px 100px 20px 0;
+    top: 48px !important;
+    border-radius: 0 !important;
+    border: none !important;
+    z-index: 1;
+}
+
+.navbar-nav .nav-item{
+    font-size: 14px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: black !important;
+}
+
+.nav-item > .nav-link:hover{
+    color: turquoise !important;
+}
+
+.navbar > .navbar-brand{
+    font-weight: 700 !important;
+    font-size: 15px;
+}
+
+.navbar-brand > .MuiSvgIcon-root{
+    font-size: 40px;
+}
+
+figure{
+    background-image: url("https://statics.olx.com.pk/external/base/img/hero_bg_pk.jpg");
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+@media(max-width:992px){
+    .nav-item{
+        margin-left: 20px;
+    }
+}

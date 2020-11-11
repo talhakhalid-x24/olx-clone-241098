@@ -1,0 +1,206 @@
+hr{
+    margin-bottom: 0 !important;
+}
+
+.selected{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.link-main .link{
+    color: rgba(0,47,52,.64) !important;
+    padding: 7px 0;
+    font-size: 14px;
+}
+
+.link-main .link::after{
+    content: "/";
+    padding: 0 7px;
+}
+
+.link-main .link:last-child::after{
+    content: none;
+}
+
+.heading h4{
+    color: #002f34 !important;
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.filter-menu{
+    /* border-bottom: 1px solid rgba(83, 125, 129, 0.2); */
+    margin-right: 20px;
+    flex: 0.25;
+    margin-top: 20px;
+}
+
+.filter-menu h5{
+    padding-left: 20px;
+}
+
+.card-menu{
+    flex: 0.75;
+    /* border-bottom: 1px solid rgba(83, 125, 129, 0.2); */
+    overflow: hidden;
+}
+
+.card-menu .slick-slider .slick-slider-top-text p{
+    margin: auto 10px;
+    background-color: #f8dd3c;
+    font-size: 14px;
+    padding: 6px 8px;
+}
+
+.card-menu .slick-slider .slick-slider-top-text h4{
+    font-weight: 700;
+    color: #002f34;
+}
+
+.card-menu .slick-slider span{
+    color: rgba(0,47,52,.64);
+    font-size: 16px;
+    padding: 4px 0 16px;
+}
+
+.card-text{
+    flex: 0.55;
+}
+
+.card-icons{
+    flex: 0.45;
+}
+
+.MuiList-root .MuiListItem-button:first-child::before{
+    content: "";
+    width: 1px;
+    background:  rgba(83, 125, 129, 0.2);
+    height: 25px;
+    margin: 0 25px;
+}
+
+.MuiListItem-gutters, .MuiList-padding{
+    color: #002f34;
+    padding: 0 !important;
+}
+
+.MuiListItemText-root{
+    margin: 0 auto !important;
+}
+
+.MuiListItemText-root .MuiTypography-displayBlock{
+    font-size: 14px;
+}
+
+.MuiCollapse-container{
+    width: 100%;
+}
+
+.MuiCollapse-container, .MuiCollapse-entered{
+    position: absolute;
+    top: 50px;
+}
+
+.MuiCollapse-container .MuiListItem-gutters{
+    padding: 8px 50px 8px 20px !important;
+    z-index: 1;
+    background: white;
+}
+
+.MuiCollapse-container .MuiListItem-gutters:hover{
+    background-color: skyblue !important;
+}
+
+.MuiCollapse-container .MuiListItem-gutters::before{
+    content: none !important;
+}
+
+.filter-menu .dropdown .dropdown-toggle{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #002f34;
+}
+
+.filter-menu .dropdown .dropdown-menu{
+    position: unset !important;
+    transform: unset !important;
+}
+
+.filter-menu .dropdown .dropdown-menu input{
+    width: 100px;
+    border-bottom: 1px solid rgba(0,47,52,.64) !important;
+    box-sizing: border-box;
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background: #ebeeef;
+    padding-left: 10px;
+}
+
+.filter-menu .dropdown .dropdown-menu button{
+    background-color: rgba(0,47,52,.36);
+    border: 1px solid rgba(0,47,52,.36);
+    box-sizing: border-box;
+    outline: none;
+}
+
+.filter-menu .dropdown .dropdown-menu button .MuiSvgIcon-root{
+    margin: 0 auto;
+}
+
+.filter-menu .dropdown .dropdown-item{
+    color: #002f34;
+    font-size: 14px;
+}
+
+.filter-menu .dropdown .dropdown-menu a span{
+    color: #002f34;
+}
+
+.filter-menu .dropdown .dropdown-menu a input{
+    background-color: #002f34;
+    width: 25px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.slick-slider-img{
+    position: relative;
+}
+
+.slick-slider-img img{
+    width: 95%;
+}
+
+.slick-list{    
+    padding: 10px !important;
+    margin: 15px 0 30px !important;
+}
+
+.slick-prev{
+    z-index: 1;
+    left: 20px !important;
+}
+
+.slick-next{
+    z-index: 1;
+    right: 20px !important;
+}
+
+.slick-slider-text{
+    position: absolute;
+    bottom: 10%;
+    left: 10px;
+    z-index: 1;
+}
+
+.slick-slider-text h4{
+    color: #fff;
+    font-weight: 900;
+}
+
+.slick-slider-text span{
+    color: #fff !important;
+}

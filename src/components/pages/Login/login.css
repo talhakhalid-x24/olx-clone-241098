@@ -1,0 +1,103 @@
+.ReactModalPortal{
+    z-index: 10;
+    position: relative;
+}
+
+.ReactModalPortal .ReactModal__Overlay, .ReactModalPortal .ReactModal__Overlay--after-open{
+    background-color: rgba(0,0,0,0.75) !important;
+}
+
+.modal-main{
+    width: 33%;
+    margin: 0 auto;
+    position: fixed;
+    top: 5%;
+    right: 0;
+    bottom: 5%;
+    left: 0;    background-color: white;
+    box-shadow: 0 1px 2px white;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.login{
+    color: #002f34;
+    text-decoration: none;
+    border-bottom: 2px solid #002f34 !important;
+    font-weight: 700;
+}
+
+.login:hover{
+    color: #002f34 !important;
+    border-bottom: none !important;
+}
+
+.modal-main .carousel-item{
+    width: 75%;
+    margin: 0 auto;
+    float: none !important;
+}
+
+.d-block{
+    width: 40% !important;
+    margin: 0 auto;
+}
+
+.login-text{
+    color: black;
+    text-align: center;
+}
+
+.close-btn{
+    float: right;
+}
+
+.close-btn button{
+    background-color: white;
+    color: black;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-size: 40px;
+    border: none;
+    line-height: 0;
+}
+
+.modal-main .carousel-control-prev, .modal-main .carousel-control-next{
+    background-color: white !important;
+    opacity: 0.5 !important;
+    height: 0 !important;
+}
+
+.carousel-indicators{
+    position: unset;
+}
+
+.carousel-indicators li{
+    background-color: gray !important;
+}
+
+.MuiButtonGroup-root {
+    display: inline !important;
+    text-align: center;
+}
+
+.MuiButtonGroup-root .MuiButton-root {
+    margin: 10px auto !important;
+    width: 100%;
+    padding: 10px 0 !important;
+    text-transform: capitalize !important;
+    border: 1px solid  gray !important;
+    color: gray !important;
+}
+
+.MuiButtonGroup-root .MuiButton-root:hover {
+    border: 5px solid  gray !important;
+}
+
+.MuiButtonGroup-root .MuiButton-root i{
+    border: 1px solid gray !important;
+    border-radius: 100%;
+    font-size: 10px;
+    padding: 3px 4px;
+}

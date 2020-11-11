@@ -1,0 +1,25 @@
+.footer-main{
+    background-color: #002f34;
+    color: white;
+}
+
+footer h6{
+    font-size: 12px;
+    font-weight: 900;
+    margin-bottom: 0 !important;
+}
+
+li{
+  list-style-type: none;
+  line-height: 1.2;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+footer li, footer span{
+    font-size: 12px;
+}
+

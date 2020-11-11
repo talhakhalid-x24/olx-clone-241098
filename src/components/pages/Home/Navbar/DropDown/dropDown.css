@@ -1,0 +1,21 @@
+.main-nav-container ul div{
+    margin-bottom: 40px;
+}
+
+.main-nav-container ul div a{
+    color: black !important;
+}
+
+.main-nav-container ul div h6{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.main-nav-container ul div a:hover{
+    color: #0d6efd !important;
+}
+
+.main-nav-container ul div li{
+    padding: 5px 0;
+    font-size: 15px;
+}

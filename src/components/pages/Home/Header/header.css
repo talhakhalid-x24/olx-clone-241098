@@ -1,0 +1,129 @@
+.header{
+    position: relative;
+    width: 100% !important  ;
+}
+
+.position-header{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.header-logo > a > img{
+    width: 45px;
+}
+
+.header-input{
+    display: flex;
+}
+
+.input-area{
+    border: 2px solid #002f34;
+    height: 50px;
+    border-radius: 5px;
+    width: 272px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.input-area > .MuiSvgIcon-root{
+    color: #002f34;
+    font-size: 35px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.input-area:focus-within > .MuiSvgIcon-root:last-child,.input-area > .MuiSvgIcon-root:last-child:focus-within{
+    transform: rotate(180deg);
+}
+
+.input-area > .form-control{
+    border: none;
+}
+
+.input-area > .form-control:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.input-area:focus-within, .search-area:focus-within{
+    border: 2px solid skyblue !important;
+}
+
+.dropdown-menu{
+    width: 100%;
+    border-radius: 0 !important;
+    border: none !important;
+    z-index: 1;
+}
+
+.popular-location{
+    color: rgb(150, 147, 147);
+    font-size: 13px;
+}
+
+.dropdown-border{
+    border-bottom: 1px solid rgb(196, 192, 192);
+}
+
+.dropdown-item .MuiSvgIcon-root{
+    margin-right: 10px;
+    color:rgb(150, 147, 147);
+}
+
+.dropdown-menu .d-flex .MuiSvgIcon-root{
+    margin: auto 10px auto 0;
+}
+
+.location{
+    color: #3a77ff;
+}
+
+.dropdown-menu .d-flex p{
+    font-size: 13px;    
+    line-height: 1;
+}
+
+.search-area{
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #002f34;
+    height: 50px;
+}
+
+.search-area > input{
+    width: 100%;
+    outline: none;
+    border: none !important;
+}
+
+.search-area > span{
+    background-color: #002f34;
+}
+
+.search-area > span > .MuiSvgIcon-root{
+    color: white;
+    font-size: 35px;
+}
+
+.sell-button{
+    width: 15%;
+}
+
+.sell-button > button{
+    background-color: white;
+    outline: none;
+    border-top: 5px solid #23e5db;
+    border-left: 5px solid #ffce32;
+    border-right: 5px solid #3a77ff;
+    border-bottom: 5px solid red;
+    border-radius: 50px;
+    color: #002f34;
+    font-weight: 700;
+}

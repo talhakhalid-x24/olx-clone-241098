@@ -1,0 +1,36 @@
+.latest-search-container{
+    width: 90%;
+    margin: 20px auto;
+    background-color: #ebeeef;
+}
+
+.search-heading > h3{
+    font-weight: 400;
+}
+
+.view-more{
+    align-self: center;
+}
+
+.view-more > a:hover{
+    color: #002f34;
+    border-bottom: none;
+}
+
+.view-more > a{
+    color: #002f34;
+    text-decoration: none;
+    border-bottom: 2px solid #002f34;
+    font-weight: 700;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    color: #000 !important;
+    background-color: #000 !important;
+    opacity: 1;
+    height: 50px;
+    top: 50% !important;
+    transform: translateY(-50%);
+    width: 3% !important;
+    z-index: 0;
+}
